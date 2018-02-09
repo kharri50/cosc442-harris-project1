@@ -18,4 +18,6 @@ public interface IOwnable {
 
 	String toString();
 
+	public abstract void playerMoved(Player player, int playerIndex, GameMaster gameMaster);
+
 }
