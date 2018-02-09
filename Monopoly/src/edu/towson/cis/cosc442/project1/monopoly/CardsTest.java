@@ -22,7 +22,7 @@ public class CardsTest extends TestCase {
         gameMaster.drawCCCard();
         assertEquals(Card.TYPE_CC, ccCard.getCardType());
         gameMaster.drawChanceCard();
-        // I actually did change the code and run the unit tests 
+        // I actually did change the code and run the unit tests...
         assertEquals(Card.TYPE_CHANCE, chanceCard.getCardType());
     }
 }
